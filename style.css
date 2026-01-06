@@ -40,12 +40,12 @@ header {
 /* Footer */
 footer {
     font-size: 0.9rem;
-    background-color: #1a1a1a;
+    background-color: #a18859;
 }
 
 /* Buttons */
 .btn-warning {
-    background-color: #d97706; /* custom coffee color */
+    background-color: #b19e5f; /* custom coffee color */
     border: none;
 }
 
