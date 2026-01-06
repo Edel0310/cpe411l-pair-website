@@ -1,4 +1,71 @@
-body {
-  font-family: Arial, sans-serif;
-  padding: 20px;
+/* ------------------------------
+   Custom Styles for Coffee Shop Spots
+------------------------------- */
+
+/* Header */
+header {
+    background-image: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?fit=crop&w=1600&q=80');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
+
+/* About section */
+#about p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* Shops section */
+#shops h5 {
+    font-weight: 600;
+}
+
+/* Images hover effect */
+#shops img {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#shops img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Contact form */
+#contact form input, #contact form textarea {
+    border-radius: 0;
+}
+
+/* Footer */
+footer {
+    font-size: 0.9rem;
+    background-color: #1a1a1a;
+}
+
+/* Buttons */
+.btn-warning {
+    background-color: #d97706; /* custom coffee color */
+    border: none;
+}
+
+.btn-warning:hover {
+    background-color: #b45309;
+}
+
+/* Add spacing between sections */
+section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/* Responsive fixes */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    #shops h5 {
+        font-size: 1rem;
+    }
 }
